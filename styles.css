@@ -1,0 +1,347 @@
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.05em;
+}
+
+.navbar-brand {
+  text-align: center;
+}
+
+
+
+transparencia {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #222222;
+  line-height: 1em;
+  border-bottom: 1px #222222 solid;
+}
+
+respiradores {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #444444;
+  letter-spacing: 0.13em;
+}
+
+.botao-inicio {
+  display: none;
+}
+
+.email {
+  font-size: 2em;
+  font-weight: bold;
+  color: #23794c;
+}
+
+.email a {
+  color: #23794c;
+  text-decoration: none;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #23794c;
+  border: #03592c;
+  z-index: 999;
+}
+
+
+.b-divider-1 {
+  height: 0.5rem;
+  background-color: #8cbf4b;
+  float: left;
+  width: 20%;
+}
+
+.b-divider-2 {
+  height: 0.5rem;
+  background-color: #61bca4;
+  float: left;
+  width: 20%;
+}
+
+.b-divider-3 {
+  height: 0.5rem;
+  background-color: #075151;
+  float: left;
+  width: 20%;
+}
+
+.b-divider-4 {
+  height: 0.5rem;
+  background-color: #108e98;
+  float: left;
+  width: 20%;
+}
+
+.b-divider-5 {
+  height: 0.5rem;
+  background-color: #00bff1;
+  float: left;
+  width: 20%;
+}
+
+
+
+.data-timeline {
+  margin: 0 0 10px 0;
+  background-color: #a1a1a1;
+}
+
+nav {
+  border-top: 1px #108e98 solid;
+}
+
+
+.nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #23794c;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 40px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 4px solid #23794c;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+.descricao-valores {
+  width: 100%;
+  padding-top: 20px;
+  margin: 0!important;
+  text-align: left;
+}
+
+.recuperado {
+  margin: 30px 0;
+}
+
+.a-recuperar {
+  margin: 30px 0;
+  text-align: right;
+}
+
+.card-processo {
+  margin-bottom: 10px!important;
+  margin-top: 10px!important;
+}
+
+.display-1 {
+  font-weight: bolder!important;
+  font-size: 10em!important;
+  color: #0275d8;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.paragrafo-display {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: -10px;
+}
+
+.rodape {
+  background-color: #043868;
+  border-bottom: 15px solid #02213e;
+}
+
+.rodape a {
+  text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+  .mobi {
+    display: none!important;
+  }
+
+  #nav-mobile {
+    display: none!important;
+  }
+
+  .icone-recuperado {
+    color:#0d6efd;
+    font-size:2em;
+    float:left;
+    margin: 0 15px 40px 0;
+  }
+
+  .icone-imoveis {
+    color:#0dcaf0;
+    font-size:2em;
+    float:left;
+    margin: 0 15px 40px 0;
+  }
+
+  .icone-imoveis-pendentes {
+    color:#188754;
+    font-size:2em;
+    float:left;
+    margin: 0 15px 40px 0;
+  }
+
+  .icone-acao-importadora {
+    color:#fec107;
+    font-size:2em;
+    float:left;
+    margin: 0 15px 40px 0;
+  }
+
+  .icone-providencias {
+    color:#0275d8;
+    font-size:2em;
+    float:left;
+    margin: 0 15px 0 40px;
+  }
+
+  .icone-busca {
+    color:#cccccc;
+    font-size:2em;
+    float:right;
+    margin: 0 15px 0 40px;
+  }
+
+  .paragrafo-2 {
+    width: 80%;
+    margin: auto;
+    max-width: 1080px;
+    text-align: center;
+  }
+  .desktop {
+    display: inline;
+  }
+}
+
+@media (max-width: 1023px) {
+  .mobi {
+    display: inline;
+  }
+
+  .desktop {
+    display: none!important;
+  }
+
+  .mob-icon {
+    font-size: 1.8em;
+    background: none!important;
+  }
+
+  .email {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #23794c;
+  }
+
+  .fixed-bottom {
+    box-shadow: 2px 0px 3px 1px rgba(0, 0, 0, 0.4);
+    border-top: none;
+  }
+
+  .redes {
+    margin-bottom: 80px;
+  }
+
+  .mob-menu {
+    font-size: 0.6em!important;
+    line-height: 0.4em!important;
+    font-family: Helvetica;
+    text-transform: uppercase;
+    margin: -5px 0 0 0;
+    padding: 0;
+  }
+
+  .display-1 {
+    font-size: 7em!important;
+  }
+
+  .paragrafo-display {
+    font-size: 0.9em;
+  }
+
+  transparencia {
+    font-size: 1.1em;
+  }
+
+  respiradores {
+    font-weight: 300;
+    letter-spacing: 0.1em;
+  }
+
+  .a-recuperar {
+    margin: 30px 0;
+    text-align: left;
+  }
+
+  .icone-busca {
+    color:#cccccc;
+    font-size:2em;
+    float:left;
+    margin: 0 15px 30px 0;
+  }
+
+  .icone-recuperado {
+    color:#0275d8;
+    font-size:2em;
+    float:left;
+    margin: 0px 15px 20px 0;
+  }
+
+  .icone-providencias {
+    color:#0275d8;
+    font-size:2em;
+    float:left;
+    margin: 0 15px 20px 0;
+  }
+
+  .icone-imoveis {
+    color:#0dcaf0;
+    font-size:2em;
+    float:left;
+    margin: 0 15px 20px 0;
+  }
+
+  .icone-imoveis-pendentes {
+    color:#188754;
+    font-size:2em;
+    float:left;
+    margin: 0 15px 20px 0;
+  }
+
+  .icone-acao-importadora {
+    color:#fec107;
+    font-size:2em;
+    float:left;
+    margin: 0 15px 20px 0;
+  }
+}
