@@ -33,6 +33,12 @@ respiradores {
   display: none;
 }
 
+
+.servicos, .servicos-resumo {
+  width: 100%!important;
+  float: left;
+}
+
 .email {
   font-size: 2em;
   font-weight: bold;
@@ -188,6 +194,14 @@ ul.timeline > li:before {
 
   #nav-mobile {
     display: none!important;
+  }
+
+  .servicos {
+    padding-left: 30px;
+  }
+
+  .serviços-resumo {
+    margin-top: 60px!important;
   }
 
   .icone-recuperado {
