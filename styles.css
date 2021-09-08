@@ -50,6 +50,13 @@ respiradores {
   text-decoration: none;
 }
 
+
+li a {
+  color: #222222!important;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 #btn-back-to-top {
   position: fixed;
   bottom: 20px;
